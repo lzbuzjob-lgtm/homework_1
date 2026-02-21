@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World App</title>
+    <style>
+        body { text-align: center; margin-top: 50px; font-family: Arial, sans-serif; }
+        #text { font-size: 3rem; transition: color 0.3s; }
+        button { padding: 10px 20px; font-size: 1.2rem; cursor: pointer; border: none; border-radius: 5px; color: white; margin: 5px; }
+        .bg-green { background-color: #4CAF50; }
+        .bg-orange { background-color: #FF9800; }
+    </style>
+</head>
+<body>
+    <h1 id="text">Hello World</h1>
+    <button class="bg-green" onclick="document.getElementById('text').style.color='green'">Зеленый</button>
+    <button class="bg-orange" onclick="document.getElementById('text').style.color='orange'">Оранжевый</button>
+</body>
+</html>
